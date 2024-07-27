@@ -1,0 +1,18 @@
+/* src/Advertisement.css */
+
+.advertisement {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.top, .bottom {
+  width: 100%;
+}
+
+.left, .right {
+  width: 200px;
+  flex-shrink: 0;
+}
