@@ -5,10 +5,10 @@ import "./PasswordGenerator.css";
 import Advertisement from "./Advertisement";
 
 const predefinedPasswords = {
-  "Crew 2014": "318522",
-  "Thor 2011": "thor@_2011",
-  "Madgaon Express 2024": "madgaon@2024",
-  "Chandu Champion 2024": "chandu@2024",
+  Crew2024: "318522",
+  Thor2011: "thor@_2011",
+  MadgaonExpress2024: "madgaon@2024",
+  ChanduChampion2024: "chandu@2024",
 };
 
 const PasswordGenerator = () => {
@@ -28,7 +28,7 @@ const PasswordGenerator = () => {
         <Advertisement position="left" />
         <div className="content">
           <h1>Password Generator</h1>
-          <p>Type the Movie Name in Capital Letters</p>
+          <p>Type the Movie Name as it is but don't give space. Ex: "Xyz 2024" : Xyz2024</p>
           <input
             type="text"
             value={input}
