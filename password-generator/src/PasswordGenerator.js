@@ -5,11 +5,10 @@ import "./PasswordGenerator.css";
 import Advertisement from "./Advertisement";
 
 const predefinedPasswords = {
-  crew: "318522",
-  admin: "987654",
-  user: "123456",
-  guest: "654321",
-  // Add more predefined mappings here
+  "Crew 2014": "318522",
+  "Thor 2011": "thor@_2011",
+  "Madgaon Express 2024": "madgaon@2024",
+  "Chandu Champion 2024": "chandu@2024",
 };
 
 const PasswordGenerator = () => {
@@ -27,9 +26,9 @@ const PasswordGenerator = () => {
       <Advertisement position="top" />
       <div className="main-content">
         <Advertisement position="left" />
-        <Advertisement position="left" />
         <div className="content">
           <h1>Password Generator</h1>
+          <p>Type the Movie Name in Capital Letters</p>
           <input
             type="text"
             value={input}
@@ -42,7 +41,6 @@ const PasswordGenerator = () => {
           </button>
           <p className="password">Password: {password}</p>
         </div>
-        <Advertisement position="right" />
         <Advertisement position="right" />
       </div>
       <Advertisement position="bottom" />
